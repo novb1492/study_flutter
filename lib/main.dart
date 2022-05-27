@@ -1,17 +1,26 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_contacts/flutter_contacts.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
+  MyApp({Key? key}) : super(key: key);
+  test() async {
+    if (await FlutterContacts.requestPermission()) {
+      List<Contact> contacts = await FlutterContacts.getContacts( withProperties: true, withPhoto: true);
+      for(int i=0;i<contacts.length;i++){
+          print(contacts[i].phones);
+      }
+    }
+  }
   @override
   Widget build(BuildContext context) {
+    test();
     return MaterialApp(
       home:Scaffold(
         appBar: AppBar(title: Text('hello'),),
-        body: Text('hello'),
+        body: Text('hellosffds'),
         bottomNavigationBar: BottomAppBar(child:
          SizedBox(
            height: 100,
