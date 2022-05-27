@@ -15,3 +15,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 "# study_flutter" 
+
+회사에서 flutter 사용하기 위해
+기초공부 용 프로젝트 입니다
