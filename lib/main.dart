@@ -13,12 +13,15 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: Text('hello'),),
         body: Text('hello'),
         bottomNavigationBar: BottomAppBar(child:
-         Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-         children: [
-           Icon(Icons.phone),
-           Icon(Icons.message),
-           Icon(Icons.contact_page),
-         ])),
+         SizedBox(
+           height: 100,
+           child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+           children: [
+             Icon(Icons.phone),
+             Icon(Icons.message),
+             Icon(Icons.contact_page),
+           ]),
+         )),
       )
     );
   }
