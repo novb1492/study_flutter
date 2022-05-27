@@ -18,3 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 
 회사에서 flutter 사용하기 위해
 기초공부 용 프로젝트 입니다
+
+초기 세팅법
+시작 하자 마자 구글 코드 지우고
+stless 입력 후 tab키 입력
