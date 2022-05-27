@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:contacts_service/contacts_service.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -8,9 +8,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    getPermission();
     return MaterialApp(
       home:Scaffold(
-        appBar: AppBar(title: Text('hello'),),
+        appBar: AppBar(title: Text('fdfs'),),
         body: Text('hello'),
         bottomNavigationBar: BottomAppBar(child:
          SizedBox(
@@ -26,6 +27,13 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+getPermission() async{
+    var contacts = await ContactsService.getContacts();
+    print('ff');
+  }
+
+
 
 
 

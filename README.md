@@ -28,3 +28,9 @@ MaterialApp
 -구글디자인이 별로면 드러내면됨
 -ios디자인은 다른 것 사용
 -https://www.youtube.com/watch?v=U6rLIFn59Kw&list=PLfLgtT94nNq1izG4R2WDN517iPX4WXH3C&index=3 영상참고
+
+그다음으로
+회사는 어차피 웹뷰 이므로
+네이티브 기능을 알아야한다
+블루투스
+-https://blog.naver.com/PostView.naver?blogId=chandong83&logNo=222414483554&parentCategoryNo=130&categoryNo=&viewDate=&isShowPopularPosts=true&from=search
